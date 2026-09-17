@@ -22,3 +22,18 @@ The project is organized under the `com.aerospace.analyzer` package:
 1. Open your terminal and navigate to the `src` directory:
    ```bash
    cd src
+
+2. Compile all Java source files:
+   ```bash
+   javac com/aerospace/analyzer/*.java
+
+3. Run the application:
+   ```bash
+   java com.aerospace.analyzer.Main
+
+## Features
+
+ * Add, view, and remove commercial aircraft from a managed fleet.
+ * Calculate mechanical parameters like thrust-to-weight ratios.
+ * Input error handling to prevent runtime crashes.
+ * Save generated reports directly to a text file.
