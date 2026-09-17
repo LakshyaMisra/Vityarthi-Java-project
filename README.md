@@ -37,3 +37,14 @@ The project is organized under the `com.aerospace.analyzer` package:
  * Calculate mechanical parameters like thrust-to-weight ratios.
  * Input error handling to prevent runtime crashes.
  * Save generated reports directly to a text file.
+
+## Example Test Data 
+If you want to test the program quickly, you can use these real-world aircraft values:
+
+* **Boeing 737-800**
+  * *For Fleet Entry (Options 1 & 2):* Empty Weight: `41413` kg | Max Fuel: `20810` kg | Passengers: `162`
+  * *For Thrust-to-Weight Ratio (Option 4):* Total Thrust: `242000` N | Aircraft Weight: `70000` kg
+
+* **Airbus A320neo**
+  * *For Fleet Entry (Options 1 & 2):* Empty Weight: `44300` kg | Max Fuel: `19050` kg | Passengers: `165`
+  * *For Thrust-to-Weight Ratio (Option 4):* Total Thrust: `240000` N | Aircraft Weight: `68000` kg
